@@ -1,0 +1,106 @@
+.navigation {
+  background-color: bisque;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 16px;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.aboutMe {
+  width: 600px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  padding: 1%;
+}
+
+.workImg {
+  width: 600px;
+  padding: 56px;
+}
+
+/* .nav {
+} */
+
+.content {
+  display: flex;
+}
+
+.heroImg {
+  width: 400px;
+}
+
+.ul {
+  width: 50%;
+  
+}
+
+.footer {
+background:bisque;   
+}
+ .footerImg {
+  width: 80px;
+ }
+
+/* My UX Skills section coded using CSS flex */
+.flexContainer {
+    display: flex;
+    width: 33%;
+    padding-top: 1%;
+   
+}
+
+.workGrid {
+  display:grid;
+  /* grid-template-columns: 20% 20% 20% 20% 20% ;
+  grid-template-rows: 20% 20% 20% 20% 20%; */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+/* 
+.item1 {
+  
+}
+
+.item2 {
+  
+}
+
+.item3 {
+
+} */
+
+
+button {
+    font-size: 16px;
+    padding: 15px;
+
+    height: 50px;
+    text-align: center;
+    background-color: rgb(209, 116, 40);
+    /* property | duration | timing */
+    transition: all 0.5s ease-out;
+  }
+  
+  button:hover {
+    background-color: rgb(77, 77, 203);
+  }
+
